@@ -142,5 +142,15 @@ draw. make the segment longer with each step.
 
 **Draw a smiley face.**
 
+## Challenge 16
+
+**Write a function that draws a star.** Your function should take an inner diameter and an outer
+diameter.
+
+## Challenge 17
+
+**Write a function that draws a star with n number of points.** 
+
+
 
 
