@@ -10,12 +10,13 @@ open class DrawingScene: SKScene {
     var lastImage: NSImage = #imageLiteral(resourceName: "blank.png")
   
   
-    
+  
     // ******************************************************************
     // ******************************************************************
-    // Your drawing code here
   
     func draw() {
+      // Your drawing code here
+      
       moveFifty()
       rotateNinety()
       moveFifty()
@@ -26,10 +27,10 @@ open class DrawingScene: SKScene {
     }
   
     // ******************************************************************
-  
-  
-  
     // ******************************************************************
+  
+  
+  
     override open func didMove(to view: SKView) {
       penSprite = childNode(withName: "pen") as! SKSpriteNode
       background = childNode(withName: "background") as! SKSpriteNode
